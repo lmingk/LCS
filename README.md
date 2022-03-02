@@ -1,2 +1,2 @@
 # LCS
-The code for LCS framework
+The codes for LCS framework
