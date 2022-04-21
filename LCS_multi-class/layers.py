@@ -166,7 +166,6 @@ class Aggregator(nn.Module):
         for o in range(self.order):
             feat_hop.append(self._spmm(adj_norm, feat_hop[-1]))
 
-        ##两行位置可换
         feat_partial = [self._f_feat_trans(ft, idf) for idf, ft in enumerate(feat_hop)]
 
 
